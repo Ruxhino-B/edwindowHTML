@@ -1,0 +1,108 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+html, body { height: 100%; }
+body { margin: 0; margin-top: 0; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: #ebf2f5;}
+h2{
+    font-size: 48px;
+    color: #1c3f97;
+}
+h6{
+    font-size: 18px;
+    color: #fff;
+}
+p{
+    font-size: 14;
+}
+
+
+
+
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+    
+}
+.span-element{
+   
+    margin-right: 5%;
+}
+.section-stil{
+    padding-bottom: 5%;
+}
+#parent{
+    position: relative;
+    margin-top: -60px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+}
+.box-over{
+    
+    margin-top: -100px;
+    
+    
+
+}
+#warm{
+    margin-top: -130px;
+}
+
+.paragraf{
+    color: #1c3f97;
+    font: 14px;
+}
+
+.bi{
+    zoom: 130%;
+}
+.section-warm{
+    position: relative;
+    
+    /* bottom: -8%; */
+}
+.subheader{
+    color: #2db1e6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.header{
+    color: #1c3f97;
+    font-size: 48px;
+    
+}
+#flower{
+    position: relative;
+    z-index: -1;
+}
+
+.card{
+    transition: .5s;
+    
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+#warm-text{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:1080px) {
+    .section-stil{
+        padding-bottom: 0px;
+    }
+    .box-over{
+        position: relative;
+    }
+    .section-warm{
+        bottom: auto;
+    }
+    #warm{
+        margin-top: 0px;
+    }
+    #foto-hide{
+        display: none;
+    }
+}
+
