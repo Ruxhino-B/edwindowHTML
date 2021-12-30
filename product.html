@@ -21,78 +21,306 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container">
+    <a class="navbar-brand" href="#">
+        <!-- <img src="https://w7.pngwing.com/pngs/219/256/png-transparent-phoenix-logo-flame-football-s-daquan-leaf-flower-symbol.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+        EDwindow
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Products</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Contacts</a>
+        </li>
+        </ul>
+    </div>
+    
+    </div>
+    
+</nav>
 
 
-    <main class="container">
- 
-        <!-- Left Column / Headphones Image -->
-        <div class="left-column">
-          <img data-image="black" src="images/black.png" alt="">
-          <img data-image="blue" src="images/blue.png" alt="">
-          <img data-image="red" class="active" src="images/red.png" alt="">
+  <div class="container">
+    <div class="row pb-5">
+
+      <!-- PHOTO -->
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <img src="images/0002-1-510x510.jpg" class="img-responsive" alt="">
+        <div class="text-center">
+          <h3>Produkt Name</h3>
         </div>
-       
-       
-        <!-- Right Column -->
-        <div class="right-column">
-       
-          <!-- Product Description -->
-          <div class="product-description">
-            <span>Headphones</span>
-            <h1>Beats EP</h1>
-            <p>The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance</p>
-          </div>
-       
-          <!-- Product Configuration -->
-          <div class="product-configuration">
-       
-            <!-- Product Color -->
-            <div class="product-color">
-              <span>Color</span>
-       
-              <div class="color-choose">
-                <div>
-                  <input data-image="red" type="radio" id="red" name="color" value="red" checked>
-                  <label for="red"><span></span></label>
-                </div>
-                <div>
-                  <input data-image="blue" type="radio" id="blue" name="color" value="blue">
-                  <label for="blue"><span></span></label>
-                </div>
-                <div>
-                  <input data-image="black" type="radio" id="black" name="color" value="black">
-                  <label for="black"><span></span></label>
-                </div>
+      </div>
+
+      <!-- INFO -->
+      <div class="col-sm-12 col-md-6 col-lg-8">
+        <!-- WINDOWS LOCATION -->
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="pt-5">
+              <div class="form-group">
+                <label for="exampleFormControlSelect1"><strong>Window Location</strong></label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
               </div>
-       
             </div>
-       
-            <!-- Cable Configuration -->
-            <div class="cable-config">
-              <span>Cable configuration</span>
-       
-              <div class="cable-choose">
-                <button>Straight</button>
-                <button>Coiled</button>
-                <button>Long-coiled</button>
+          </div>  
+        </div>
+
+        <!-- WIDTH & HEIGHT -->
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="pt-3">
+              <div class="form-group">
+                <label for="exampleFormControlSelect1"><strong>Width (mm)</strong></label>
+                <input class="form-control" type="text" placeholder="400">
               </div>
-       
-              <a href="#">How to configurate your headphones</a>
             </div>
           </div>
-       
-          <!-- Product Pricing -->
-          <div class="product-price">
-            <span>148$</span>
-            <a href="#" class="cart-btn">Add to cart</a>
+          
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="pt-3">
+              <div class="form-group">
+                <label for="exampleFormControlSelect1"><strong>Height (mm)</strong></label>
+                <input class="form-control" type="text" placeholder="800">
+              </div>
+            </div>
           </div>
         </div>
-      </main>
+        <!-- COLOR & GLASS -->
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="pt-3">
+              <div class="form-group">
+                <label for="exampleFormControlSelect1"><strong>Colour</strong></label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="pt-3">
+              <div class="form-group">
+                <label for="exampleFormControlSelect1"><strong>Glass</strong></label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- STYLE -->
+      <div class="row">
+        <div class="pt-3">
+          <label for="exampleFormControlSelect1"><strong>Style</strong></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-group mb-3">
+          <div class="col-lg-2">
+            <img src="images/style-windows/standard-window.jpg" alt=""> 
+          </div>
+          <div class="col-lg-2">            
+            <img src="images/style-windows/georgian-bar-white.jpg" alt="">  
+          </div>
+          <div class="col-lg-2">            
+            <img src="images/style-windows/georgian-bar-colour.jpg" alt="">  
+          </div>
+          <div class="col-lg-2">            
+            <img src="images/style-windows/square-lead.jpg" alt="">  
+          </div>
+          <div class="col-lg-2">            
+            <img src="images/style-windows/diamond-lead.jpg" alt="">  
+          </div>
+        </div>
+      </div>
+        <!-- Trickle Vents & Cill -->
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="pt-3">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><strong>Trickle Vents</strong></label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="pt-3">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><strong>Cill</strong></label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- Child Restriction -->
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="pt-3">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><strong>Child Restriction</strong></label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- Add-on Top &  Add-on Bottom -->
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="pt-3">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><strong>Add-on Top</strong></label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="pt-3">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><strong>Add-on Bottom</strong></label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add-on Left & Add-on Right -->
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="pt-3">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><strong>Add-on Left</strong></label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="pt-3">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><strong>Add-on Right</strong></label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="col pt-5"><p><strong>Total</strong></p></div>
+          <div class="col"><h2><strong>£145.29 +VAT</strong></h2></div>
+      </div>
+      </div>
+
+    </div>
+    </div>
 
 
+    <div class="row inform text-center p-5 justify-content-center">
+      <h4>If you can't find exactly what you're looking for please give us a call or send</h4>
+      <h4>us an email. We have hundreds of options available. Whatever sizes,</h4> 
+      <h4>colours, glass or styles you could want we can make!</h4>
+      <div class="col-lg-2 py-3"><button class="btn btn-primary p-3">0696333248</button></div>
+      <div class="col-lg-2 py-3"><button class="btn btn-primary p-3">erjon.denjeli@gmail.com</button></div>
+      <h6>CUSTOMER DISCOUNTS</h6>
+      <h6>10% off orders between £500-£1250* – Use Code WSDTEN</h6> 
+      <h6>15% off orders over £1250* – Use Code WSDFIFTEEN</h6>
+      <h6>*UPVC doors and windows only</h6>
+      <h6>*Not including VAT</h6> 
+      <h6>*Not including delivery</h6>
+
+    </div>
+
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+    </div>
+  
+  </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
